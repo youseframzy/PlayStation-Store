@@ -1,0 +1,96 @@
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 5rem;
+}
+body:not(header){
+    background: #6422F2;
+}
+.navbar li a{
+    color: white;
+}
+
+/* .section-1{
+    border: 5px solid #8C5245;
+}
+.section-2{
+    border: 5px solid #8C5245;
+} */
+.section-3 .titel{
+    text-align: center;
+}
+.section-3 .titel span{
+    color: #3F1859;
+}
+.icons{
+    color: #fff;
+    padding:0.5rem;
+}
+.img{
+    height:500px;
+    width:100%;
+
+}
+.shop h1{
+    color: #fff;
+    text-align: center;
+}
+.footer{
+    margin-top: 5rem;
+    text-align: center;
+}
+.footer .shar{
+    padding: 1rem 0;
+}
+.footer .shar a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: black;
+    margin: 0.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer .shar a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem ;
+}
+.footer .links a{
+    padding: 0.7rem 2rem;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.footer .links a:hover{
+    color: #fff;
+}
+.footer .credit{
+    font-size: 2rem;
+    color: black;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credit span{
+    color: #fff;
+}
